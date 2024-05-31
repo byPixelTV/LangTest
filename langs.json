@@ -1,0 +1,23 @@
+{
+    "en_GB": {
+        "fallback": "null",
+        "details.en_GB": {
+            "name": "British English",
+            "country": "United Kingdom"
+        }
+    },
+    "en_US": {
+        "fallback": "en_GB",
+        "details.en_US": {
+            "name": "American English",
+            "country": "United States"
+        }
+    },
+    "de_DE": {
+        "fallback": "en_GB",
+        "details.de_DE": {
+            "name": "Deutsch",
+            "country": "Deutschland"
+        }
+    }
+}

@@ -1,23 +1,43 @@
 {
-    "en_GB": {
-        "fallback": "null",
-        "details.en_GB": {
-            "name": "British English",
-            "country": "United Kingdom"
-        }
-    },
-    "en_US": {
-        "fallback": "en_GB",
-        "details.en_US": {
-            "name": "American English",
-            "country": "United States"
-        }
-    },
-    "de_DE": {
-        "fallback": "en_GB",
-        "details.de_DE": {
-            "name": "Deutsch",
-            "country": "Deutschland"
+    "base_language": "en_US",
+    "languages":
+    {
+        "en_US":
+        {
+            "fallback": null,
+            "details.en_US":
+            {
+                "name": "English",
+                "country": "United States"
+            }
+        },
+        "en_GB":
+        {
+            "fallback": "en_US",
+            "details.en_GB":
+            {
+                "name": "English",
+                "country": "United Kingdom"
+            },
+            "details.en_US":
+            {
+                "name": "English",
+                "country": "United Kingdom"
+            }
+        },
+        "de_DE":
+        {
+            "fallback": "en_US",
+            "details.de_DE":
+            {
+                "name": "Deutsch",
+                "country": "Deutschland"
+            },
+            "details.en_US":
+            {
+                "name": "German",
+                "country": "Germany"
+            }
         }
     }
 }

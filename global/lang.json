@@ -5,8 +5,7 @@
         "GENERAL.error.player.noperm":
         {
             "de_DE": "&cDazu hast du keine Berechtigung!",
-            "en_US": "&cYou don't have permission to do that!",
-            "en_GB": "&cYou don't have permission to do that!"
+            "en_US": "&cYou don't have permission to do that!"
         }
     }
 }

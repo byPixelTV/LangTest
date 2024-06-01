@@ -1,0 +1,7 @@
+on load:
+    set {lang::de_DE::join::TITLE.main} to "&7&lWillkommen auf &b&lPixelNetwork"
+    set {lang::de_DE::join::TITLE.sub} to "&b&l[player]"
+    set {lang::en_GB::join::TITLE.main} to "&7&lWelcome to &b&lPixelNetwork"
+    set {lang::en_GB::join::TITLE.sub} to "&b&l[player]"
+    set {lang::en_US::join::TITLE.main} to "&7&lWelcome to &b&lPixelNetwork"
+    set {lang::en_US::join::TITLE.sub} to "&b&l[player]"

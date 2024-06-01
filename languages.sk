@@ -1,0 +1,4 @@
+on load:
+    set {lang::config::base} to "en_GB"
+    set {lang::config::de_DE::fallback} to "en_GB"
+    set {lang::config::en_US::fallback} to "en_GB"

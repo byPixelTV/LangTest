@@ -1,0 +1,4 @@
+on load:
+    set {lang::de_DE::lobby::GENERAL.noperm} to "&cDir fehlt die Berechtigung um das zu tun!"
+    set {lang::en_GB::lobby::GENERAL.noperm} to "&cYou're lacking permission to do that!"
+    set {lang::en_US::lobby::GENERAL.noperm} to "&cYou're lacking permission to do that!"

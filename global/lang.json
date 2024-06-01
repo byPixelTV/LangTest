@@ -1,5 +1,5 @@
 {
-    "system": "lobby",
+    "system": "core",
     "translations":
     {
         "GENERAL.error.player.noperm":

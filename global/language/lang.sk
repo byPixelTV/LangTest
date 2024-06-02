@@ -1,0 +1,4 @@
+on load:
+    set {_sys} to "language"
+    set {l.%{_sys}%::de_DE::SELECT.lang} to "&7Du hast deine &bSprache &7auf &bDeutsch &7gesetzt."
+    set {l.%{_sys}%::en_GB::SELECT.lang} to "&7You've set your &blanguage &7to &bEnglish."

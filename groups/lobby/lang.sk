@@ -1,4 +1,5 @@
 on load:
-    set {lang::de_DE::lobby::GENERAL.noperm} to "&cDir fehlt die Berechtigung um das zu tun!"
-    set {lang::en_GB::lobby::GENERAL.noperm} to "&cYou're lacking permission to do that!"
-    set {lang::en_US::lobby::GENERAL.noperm} to "&cYou're lacking permission to do that!"
+    set {_sys} to "lobby"
+    set {l.%{_sys}%::de_DE::GENERAL.error.player.noperm} to "&cDir fehlt die Berechtigung um das zu tun!"
+    set {l.%{_sys}%::en_GB::GENERAL.error.player.noperm}} to "&cYou're lacking permission to do that!"
+    set {l.%{_sys}%::en_US::GENERAL.error.player.noperm} to "&cYou're lacking permission to do that!"

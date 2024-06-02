@@ -1,0 +1,5 @@
+on load:
+    set {_sys} to "essential"
+    set {l.%{_sys}%::de_DE::GENERAL.error.player.noperm} to "&cDir fehlt die Berechtigung um das zu tun!"
+    set {l.%{_sys}%::en_GB::GENERAL.error.player.noperm} to "&cYou're lacking permission to do that!"
+    set {l.%{_sys}%::en_US::GENERAL.error.player.noperm} to "&cYou're lacking permission to do that!"
